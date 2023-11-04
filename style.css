@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1e1e1e;
+  /*height: 80px;*/
+  height: 10vh;
+  text-align: center;
+  padding-top: 20px;
+}
+
+body {
+  margin-left: 20%;
+  width: 60%;
+}
+
+nav {
+  margin-top: 15px;
+  word-spacing: 8vw;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+}
+
+a:hover {
+  color: aqua;
+}
+.primelogo {
+  /*height: 80vh;
+  width: 100%;
+  border: solid 1px;
+  text-align: center;*/
+}
+.fundo {
+  width: 100%;
+}
+
+.cards {
+  /*border: solid 1px red;*/
+  text-align: center;
+  height: 50vh;
+}
+
+div {
+  /*border: solid 1px black;*/
+  width: 300px;
+  height: 350px;
+  /* text-align: center; */
+  padding: 0px;
+  display: inline-block;
+  margin: 10px;
+}
+h2 {
+  margin-top: 10px;
+}
+div:hover {
+  color: turquoise;
+}
+
+figure {
+  color: wheat;
+}
+figure:hover {
+  color: green;
+}
+
+img {
+  width: 250px;
+  height: 360px;
+  /*border: solid 1px black;*/
+}
+img:hover {
+}
+
+.seta {
+  width: 3vw;
+  height: 5vh;
+  margin-bottom: 190px;
+}
+
+.seta :hover {
+  transition: 200ms linear;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #1e1e1e;
+  height: 10vh;
+  /*padding-top: -30px;*/
+}
+
+p {
+  display: inline-block;
+  margin-left: 10px;
+  /*width: 53vw;*/
+  color: #ffffff;
+  padding-top: 40px;
+  /*text-align: center;*/
+  /* line-height: 5.5; */
+  /* height: 10vh; */
+}
+.logos {
+  display: inline;
+  width: 10vw;
+  margin-left: 50%;
+}
+
+#youtube {
+  display: inline-block;
+  margin-left: 90%;
+  width: 1.5vw;
+  height: 1.5vw;
+  /* display: inline-block; */
+}
+#insta {
+  display: inline-block;
+  height: 1.5vw;
+  width: 1.5vw;
+}
+#prime {
+  display: inline-block;
+  height: 1.5vw;
+  width: 1.5vw;
+}
